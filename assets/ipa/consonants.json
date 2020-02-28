@@ -1,0 +1,74 @@
+{
+    "vcd_avl_pls_ltr_sbl": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcd_avl_pls_ltr_sbl"
+    },
+    "vcl_avl_pls_ltr_sbl": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcl_avl_pls_ltr_sbl"
+    },
+    "vcd_vlr_pls_ltr_sbl": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcd_vlr_pls_ltr_sbl"
+    },
+    "vcl_vlr_pls_ltr_sbl": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcl_vlr_pls_ltr_sbl"
+    },
+    "vcd_blb_pls_ltr_sbl": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcd_blb_pls_ltr_sbl"
+    },
+    "vcl_blb_pls_ltr_sbl": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcl_blb_pls_ltr_sbl"
+    },
+    "vcd_plt_pls_ltr_sbl": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcd_plt_pls_ltr_sbl"
+    },
+    "vcl_plt_pls_ltr_sbl": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "plosive",
+        "lateral": "lateral",
+        "sibilant": "sibilant",
+        "symbol": "NULL",
+        "name": "vcl_plt_pls_ltr_sbl"
+    }
+}

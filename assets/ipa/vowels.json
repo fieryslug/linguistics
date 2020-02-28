@@ -1,0 +1,294 @@
+{
+    "opn_frt_unr": {
+        "name": "opn_frt_unr",
+        "symbol": "a",
+        "backness": "front",
+        "roundedness": "unrounded"
+    },
+    "cls_frt_unr": {
+        "name": "cls_frt_unr",
+        "symbol": "i",
+        "backness": "front",
+        "roundedness": "unrounded"
+    },
+    "opn_frt_rnd": {
+        "height": "open",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "\u0276",
+        "name": "opn_frt_rnd"
+    },
+    "nop_frt_rnd": {
+        "height": "near-open",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "NULL",
+        "name": "nop_frt_rnd"
+    },
+    "opm_frt_rnd": {
+        "height": "open-mid",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "\u0153",
+        "name": "opm_frt_rnd"
+    },
+    "mid_frt_rnd": {
+        "height": "mid",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "\u00f8\u031e",
+        "name": "mid_frt_rnd"
+    },
+    "clm_frt_rnd": {
+        "height": "close-mid",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "\u00f8",
+        "name": "clm_frt_rnd"
+    },
+    "ncl_frt_rnd": {
+        "height": "near-close",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "\u028f",
+        "name": "ncl_frt_rnd"
+    },
+    "cls_frt_rnd": {
+        "height": "close",
+        "backness": "front",
+        "roundedness": "rounded",
+        "symbol": "y",
+        "name": "cls_frt_rnd"
+    },
+    "opn_cnt_rnd": {
+        "height": "open",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "NULL",
+        "name": "opn_cnt_rnd"
+    },
+    "nop_cnt_rnd": {
+        "height": "near-open",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "NULL",
+        "name": "nop_cnt_rnd"
+    },
+    "opm_cnt_rnd": {
+        "height": "open-mid",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "\u025e",
+        "name": "opm_cnt_rnd"
+    },
+    "mid_cnt_rnd": {
+        "height": "mid",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "NULL",
+        "name": "mid_cnt_rnd"
+    },
+    "clm_cnt_rnd": {
+        "height": "close-mid",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "\u0275",
+        "name": "clm_cnt_rnd"
+    },
+    "ncl_cnt_rnd": {
+        "height": "near-close",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "NULL",
+        "name": "ncl_cnt_rnd"
+    },
+    "cls_cnt_rnd": {
+        "height": "close",
+        "backness": "central",
+        "roundedness": "rounded",
+        "symbol": "\u0289",
+        "name": "cls_cnt_rnd"
+    },
+    "opn_bck_rnd": {
+        "height": "open",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "\u0252",
+        "name": "opn_bck_rnd"
+    },
+    "nop_bck_rnd": {
+        "height": "near-open",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "NULL",
+        "name": "nop_bck_rnd"
+    },
+    "opm_bck_rnd": {
+        "height": "open-mid",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "\u0254",
+        "name": "opm_bck_rnd"
+    },
+    "mid_bck_rnd": {
+        "height": "mid",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "o\u031e",
+        "name": "mid_bck_rnd"
+    },
+    "clm_bck_rnd": {
+        "height": "close-mid",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "o",
+        "name": "clm_bck_rnd"
+    },
+    "ncl_bck_rnd": {
+        "height": "near-close",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "\u028a",
+        "name": "ncl_bck_rnd"
+    },
+    "cls_bck_rnd": {
+        "height": "close",
+        "backness": "back",
+        "roundedness": "rounded",
+        "symbol": "u",
+        "name": "cls_bck_rnd"
+    },
+    "nop_frt_unr": {
+        "height": "near-open",
+        "backness": "front",
+        "roundedness": "unrounded",
+        "symbol": "\u00e6",
+        "name": "nop_frt_unr"
+    },
+    "opm_frt_unr": {
+        "height": "open-mid",
+        "backness": "front",
+        "roundedness": "unrounded",
+        "symbol": "\u025b",
+        "name": "opm_frt_unr"
+    },
+    "clm_frt_unr": {
+        "height": "close-mid",
+        "backness": "front",
+        "roundedness": "unrounded",
+        "symbol": "e",
+        "name": "clm_frt_unr"
+    },
+    "ncl_frt_unr": {
+        "height": "near-close",
+        "backness": "front",
+        "roundedness": "unrounded",
+        "symbol": "\u026a",
+        "name": "ncl_frt_unr"
+    },
+    "mid_frt_unr": {
+        "height": "mid",
+        "backness": "front",
+        "roundedness": "unrounded",
+        "symbol": "NULL",
+        "name": "mid_frt_unr"
+    },
+    "opn_cnt_unr": {
+        "height": "open",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "\u00e4",
+        "name": "opn_cnt_unr"
+    },
+    "nop_cnt_unr": {
+        "height": "near-open",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "\u0250",
+        "name": "nop_cnt_unr"
+    },
+    "opm_cnt_unr": {
+        "height": "open-mid",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "\u025c",
+        "name": "opm_cnt_unr"
+    },
+    "mid_cnt_unr": {
+        "height": "mid",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "\u0259",
+        "name": "mid_cnt_unr"
+    },
+    "clm_cnt_unr": {
+        "height": "close-mid",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "\u0258",
+        "name": "clm_cnt_unr"
+    },
+    "ncl_cnt_unr": {
+        "height": "near-close",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "NULL",
+        "name": "ncl_cnt_unr"
+    },
+    "cls_cnt_unr": {
+        "height": "close",
+        "backness": "central",
+        "roundedness": "unrounded",
+        "symbol": "\u0268",
+        "name": "cls_cnt_unr"
+    },
+    "opn_bck_unr": {
+        "height": "open",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "\u0251",
+        "name": "opn_bck_unr"
+    },
+    "nop_bck_unr": {
+        "height": "near-open",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "NULL",
+        "name": "nop_bck_unr"
+    },
+    "opm_bck_unr": {
+        "height": "open-mid",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "\u028c",
+        "name": "opm_bck_unr"
+    },
+    "mid_bck_unr": {
+        "height": "mid",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "NULL",
+        "name": "mid_bck_unr"
+    },
+    "clm_bck_unr": {
+        "height": "close-mid",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "\u0264",
+        "name": "clm_bck_unr"
+    },
+    "ncl_bck_unr": {
+        "height": "near-close",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "NULL",
+        "name": "ncl_bck_unr"
+    },
+    "cls_bck_unr": {
+        "height": "close",
+        "backness": "back",
+        "roundedness": "unrounded",
+        "symbol": "\u026f",
+        "name": "cls_bck_unr"
+    }
+}
