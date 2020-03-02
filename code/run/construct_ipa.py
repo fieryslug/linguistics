@@ -92,6 +92,8 @@ def construct_consonants():
             tmp[p.name] = r[i]
         res1.append(tmp)
     
+    tot_count = len(res)
+
     consonants = dict()
     with open(ipa_path + 'consonants.json', 'r') as f:
         consonants = json.load(f)
@@ -100,16 +102,29 @@ def construct_consonants():
 
     j = 0
     tmp_consonants = dict()
+
+    #sanity check
+    for p in l:
+        for v in p:
+            if not v in ipa.booklet:
+                print(f'{v} is not in the booklet!')
+            else:
+                print(f'{v} is in the booklet')
+
     def func(k):
         r = res1[k]
         short_name = []
+        long_name = []
         for i in range(len(ipa.consonant_properties)):
             p = ipa.consonant_properties[i]
             short = ipa.booklet[r[p.name]]
             short_name.append(short)
+            long_name.append(r[p.name])
+        
         short_name = '_'.join(misc.cleanup(short_name))
+        long_name = ' '.join(misc.cleanup(long_name))
         if not short_name in consonants:
-            symbol = input(short_name + ': ')
+            symbol = input(f'{short_name} ({long_name}): ')
             r['symbol'] = symbol
             r['name'] = short_name
 
@@ -135,7 +150,7 @@ def construct_consonants():
         return k
 
     while j < len(res1):
-        print(j)
+        print(f'{j}/{tot_count}')
         j = func(j)
 
     for tr in tmp_consonants:

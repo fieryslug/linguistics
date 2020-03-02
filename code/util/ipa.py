@@ -58,16 +58,14 @@ roundedness = Property('roundedness', ['rounded', 'unrounded'])
 
 
 voice = Property('voice', ['voiced', 'voiceless'])
-place = Property('place', ['alveolar', 'velar', 'bilabial', 'palatal', 'uvular', 'pharyngeal'])
-manner = Property('manner', ['plosive', 'fricative', 'nasal', 'trill', 'tap', 'approximant'])
-lateral = Property('lateral', ['lateral', ''])
-sibilant = Property('sibilant', ['sibilant', ''])
-
+place = Property('place', ['bilabial', 'labiodental', 'linguolabial', 'dental', 'alveolar', 'postalveolar', 'retroflex', 'palatal', 'velar', 'uvular', 'pharyngeal', 'glottal'])
+manner = Property('manner', ['plosive', 'fricative', 'affricate', 'nasal', 'trill', 'approximant', 'tap',
+'lateral-fricative', 'lateral-affricate', 'lateral-approximant', 'lateral-tap', 'sibilant-fricative', 'sibilant-affricate'])
 
 
 
 vowel_properties = [height, backness, roundedness]
-consonant_properties = [voice, place, manner, lateral, sibilant]
+consonant_properties = [voice, place, manner]
 
 booklet = bidict({
     'open': 'opn',
@@ -88,19 +86,32 @@ booklet = bidict({
     'voiced': 'vcd',
     'voiceless': 'vcl',
     'alveolar': 'avl',
+    'postalveolar': 'pal',
+    'retroflex': 'rtf',
+
     'velar': 'vlr',
     'bilabial': 'blb',
+    'labiodental': 'lbd',
+    'linguolabial': 'lgl',
+    'dental': 'dnt',
     'palatal': 'plt',
     'uvular': 'uvl',
     'pharyngeal': 'phr',
+    'glottal': 'glt',
+
     'plosive': 'pls',
     'fricative': 'frc',
+    'affricate': 'afr',
     'nasal': 'nsl',
     'trill': 'trl',
     'tap': 'tap',
     'approximant': 'apr',
-    'lateral': 'ltr',
-    'sibilant': 'sbl',
+    'lateral-fricative': 'lfr',
+    'lateral-affricate': 'laf',
+    'lateral-approximant': 'lap',
+    'lateral-tap': 'ltp',
+    'sibilant-fricative': 'sfr',
+    'sibilant-affricate': 'saf',
     '': ''
 })
 

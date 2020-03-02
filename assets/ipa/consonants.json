@@ -1,74 +1,2186 @@
 {
-    "vcd_avl_pls_ltr_sbl": {
-        "voice": "voiced",
-        "place": "alveolar",
-        "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcd_avl_pls_ltr_sbl"
-    },
-    "vcl_avl_pls_ltr_sbl": {
-        "voice": "voiceless",
-        "place": "alveolar",
-        "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcl_avl_pls_ltr_sbl"
-    },
-    "vcd_vlr_pls_ltr_sbl": {
-        "voice": "voiced",
-        "place": "velar",
-        "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcd_vlr_pls_ltr_sbl"
-    },
-    "vcl_vlr_pls_ltr_sbl": {
-        "voice": "voiceless",
-        "place": "velar",
-        "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcl_vlr_pls_ltr_sbl"
-    },
-    "vcd_blb_pls_ltr_sbl": {
+    "vcd_blb_pls": {
         "voice": "voiced",
         "place": "bilabial",
         "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcd_blb_pls_ltr_sbl"
+        "symbol": "b",
+        "name": "vcd_blb_pls"
     },
-    "vcl_blb_pls_ltr_sbl": {
+    "vcl_blb_pls": {
         "voice": "voiceless",
         "place": "bilabial",
         "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcl_blb_pls_ltr_sbl"
+        "symbol": "p",
+        "name": "vcl_blb_pls"
     },
-    "vcd_plt_pls_ltr_sbl": {
+    "vcd_lbd_pls": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "plosive",
+        "symbol": "b\u032a",
+        "name": "vcd_lbd_pls"
+    },
+    "vcl_lbd_pls": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "plosive",
+        "symbol": "pp\u0346",
+        "name": "vcl_lbd_pls"
+    },
+    "vcd_lgl_pls": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "plosive",
+        "symbol": "d\u033c",
+        "name": "vcd_lgl_pls"
+    },
+    "vcl_lgl_pls": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "plosive",
+        "symbol": "t\u033c",
+        "name": "vcl_lgl_pls"
+    },
+    "vcd_dnt_pls": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "plosive",
+        "symbol": "d",
+        "name": "vcd_dnt_pls"
+    },
+    "vcl_dnt_pls": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "plosive",
+        "symbol": "t",
+        "name": "vcl_dnt_pls"
+    },
+    "vcd_avl_pls": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "plosive",
+        "symbol": "d",
+        "name": "vcd_avl_pls"
+    },
+    "vcl_avl_pls": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "plosive",
+        "symbol": "t",
+        "name": "vcl_avl_pls"
+    },
+    "vcd_pal_pls": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "plosive",
+        "symbol": "d",
+        "name": "vcd_pal_pls"
+    },
+    "vcl_pal_pls": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "plosive",
+        "symbol": "t",
+        "name": "vcl_pal_pls"
+    },
+    "vcd_rtf_pls": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "plosive",
+        "symbol": "\u0256",
+        "name": "vcd_rtf_pls"
+    },
+    "vcl_rtf_pls": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "plosive",
+        "symbol": "\u0288",
+        "name": "vcl_rtf_pls"
+    },
+    "vcd_plt_pls": {
         "voice": "voiced",
         "place": "palatal",
         "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
-        "symbol": "NULL",
-        "name": "vcd_plt_pls_ltr_sbl"
+        "symbol": "\u025f",
+        "name": "vcd_plt_pls"
     },
-    "vcl_plt_pls_ltr_sbl": {
+    "vcl_plt_pls": {
         "voice": "voiceless",
         "place": "palatal",
         "manner": "plosive",
-        "lateral": "lateral",
-        "sibilant": "sibilant",
+        "symbol": "c",
+        "name": "vcl_plt_pls"
+    },
+    "vcd_vlr_pls": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "plosive",
+        "symbol": "g",
+        "name": "vcd_vlr_pls"
+    },
+    "vcl_vlr_pls": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "plosive",
+        "symbol": "k",
+        "name": "vcl_vlr_pls"
+    },
+    "vcd_uvl_pls": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "plosive",
+        "symbol": "\u0262",
+        "name": "vcd_uvl_pls"
+    },
+    "vcl_uvl_pls": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "plosive",
+        "symbol": "q",
+        "name": "vcl_uvl_pls"
+    },
+    "vcd_phr_pls": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "plosive",
         "symbol": "NULL",
-        "name": "vcl_plt_pls_ltr_sbl"
+        "name": "vcd_phr_pls"
+    },
+    "vcl_phr_pls": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "plosive",
+        "symbol": "\u02a1",
+        "name": "vcl_phr_pls"
+    },
+    "vcd_glt_pls": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "plosive",
+        "symbol": "NULL",
+        "name": "vcd_glt_pls"
+    },
+    "vcl_glt_pls": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "plosive",
+        "symbol": "\u0294",
+        "name": "vcl_glt_pls"
+    },
+    "vcd_blb_frc": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "fricative",
+        "symbol": "\u03b2",
+        "name": "vcd_blb_frc"
+    },
+    "vcl_blb_frc": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "fricative",
+        "symbol": "\u0278",
+        "name": "vcl_blb_frc"
+    },
+    "vcd_lbd_frc": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "fricative",
+        "symbol": "v",
+        "name": "vcd_lbd_frc"
+    },
+    "vcl_lbd_frc": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "fricative",
+        "symbol": "f",
+        "name": "vcl_lbd_frc"
+    },
+    "vcd_lgl_frc": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "fricative",
+        "symbol": "\u00f0\u033c",
+        "name": "vcd_lgl_frc"
+    },
+    "vcl_lgl_frc": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "fricative",
+        "symbol": "\u03b8\u033c",
+        "name": "vcl_lgl_frc"
+    },
+    "vcd_dnt_frc": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "fricative",
+        "symbol": "\u00f0",
+        "name": "vcd_dnt_frc"
+    },
+    "vcl_dnt_frc": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "fricative",
+        "symbol": "\u03b8",
+        "name": "vcl_dnt_frc"
+    },
+    "vcd_avl_frc": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "fricative",
+        "symbol": "\u00f0\u0320",
+        "name": "vcd_avl_frc"
+    },
+    "vcl_avl_frc": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "fricative",
+        "symbol": "\u03b8\u0320",
+        "name": "vcl_avl_frc"
+    },
+    "vcd_pal_frc": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "fricative",
+        "symbol": "\u0279\u0320\u02d4",
+        "name": "vcd_pal_frc"
+    },
+    "vcl_pal_frc": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "fricative",
+        "symbol": "\u0279\u0320\u030a\u02d4",
+        "name": "vcl_pal_frc"
+    },
+    "vcd_rtf_frc": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "fricative",
+        "symbol": "NULL",
+        "name": "vcd_rtf_frc"
+    },
+    "vcl_rtf_frc": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "fricative",
+        "symbol": "NULL",
+        "name": "vcl_rtf_frc"
+    },
+    "vcd_plt_frc": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "fricative",
+        "symbol": "\u029d",
+        "name": "vcd_plt_frc"
+    },
+    "vcl_plt_frc": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "fricative",
+        "symbol": "\u00e7",
+        "name": "vcl_plt_frc"
+    },
+    "vcd_vlr_frc": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "fricative",
+        "symbol": "\u0263",
+        "name": "vcd_vlr_frc"
+    },
+    "vcl_vlr_frc": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "fricative",
+        "symbol": "x",
+        "name": "vcl_vlr_frc"
+    },
+    "vcd_uvl_frc": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "fricative",
+        "symbol": "\u0281",
+        "name": "vcd_uvl_frc"
+    },
+    "vcl_uvl_frc": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "fricative",
+        "symbol": "\u03c7",
+        "name": "vcl_uvl_frc"
+    },
+    "vcd_phr_frc": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "fricative",
+        "symbol": "\u0295",
+        "name": "vcd_phr_frc"
+    },
+    "vcl_phr_frc": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "fricative",
+        "symbol": "\u0127",
+        "name": "vcl_phr_frc"
+    },
+    "vcd_glt_frc": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "fricative",
+        "symbol": "\u0266",
+        "name": "vcd_glt_frc"
+    },
+    "vcl_glt_frc": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "fricative",
+        "symbol": "h",
+        "name": "vcl_glt_frc"
+    },
+    "vcd_blb_afr": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "affricate",
+        "symbol": "b\u03b2",
+        "name": "vcd_blb_afr"
+    },
+    "vcl_blb_afr": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "affricate",
+        "symbol": "p\u0278",
+        "name": "vcl_blb_afr"
+    },
+    "vcd_lbd_afr": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "affricate",
+        "symbol": "b\u032av",
+        "name": "vcd_lbd_afr"
+    },
+    "vcl_lbd_afr": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "affricate",
+        "symbol": "p\u0346f",
+        "name": "vcl_lbd_afr"
+    },
+    "vcd_lgl_afr": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "affricate",
+        "symbol": "NULL",
+        "name": "vcd_lgl_afr"
+    },
+    "vcl_lgl_afr": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "affricate",
+        "symbol": "NULL",
+        "name": "vcl_lgl_afr"
+    },
+    "vcd_dnt_afr": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "affricate",
+        "symbol": "d\u032a\u00f0",
+        "name": "vcd_dnt_afr"
+    },
+    "vcl_dnt_afr": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "affricate",
+        "symbol": "t\u032a\u03b8",
+        "name": "vcl_dnt_afr"
+    },
+    "vcd_avl_afr": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "affricate",
+        "symbol": "d\u0279\u031d",
+        "name": "vcd_avl_afr"
+    },
+    "vcl_avl_afr": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "affricate",
+        "symbol": "t\u0279\u031d\u030a",
+        "name": "vcl_avl_afr"
+    },
+    "vcd_pal_afr": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "affricate",
+        "symbol": "t\u0279d\u0320\u0279\u0320\u02d4",
+        "name": "vcd_pal_afr"
+    },
+    "vcl_pal_afr": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "affricate",
+        "symbol": "t\u0320\u0279\u0320\u030a\u02d4",
+        "name": "vcl_pal_afr"
+    },
+    "vcd_rtf_afr": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "affricate",
+        "symbol": "NULL",
+        "name": "vcd_rtf_afr"
+    },
+    "vcl_rtf_afr": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "affricate",
+        "symbol": "NULL",
+        "name": "vcl_rtf_afr"
+    },
+    "vcd_plt_afr": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "affricate",
+        "symbol": "\u025f\u029d",
+        "name": "vcd_plt_afr"
+    },
+    "vcl_plt_afr": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "affricate",
+        "symbol": "c\u00e7",
+        "name": "vcl_plt_afr"
+    },
+    "vcd_vlr_afr": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "affricate",
+        "symbol": "\u0261\u0263",
+        "name": "vcd_vlr_afr"
+    },
+    "vcl_vlr_afr": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "affricate",
+        "symbol": "kx",
+        "name": "vcl_vlr_afr"
+    },
+    "vcd_uvl_afr": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "affricate",
+        "symbol": "\u0262\u0281",
+        "name": "vcd_uvl_afr"
+    },
+    "vcl_uvl_afr": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "affricate",
+        "symbol": "q\u03c7",
+        "name": "vcl_uvl_afr"
+    },
+    "vcd_phr_afr": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "affricate",
+        "symbol": "\u02a1\u02a2",
+        "name": "vcd_phr_afr"
+    },
+    "vcl_phr_afr": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "affricate",
+        "symbol": "NULL",
+        "name": "vcl_phr_afr"
+    },
+    "vcd_glt_afr": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "affricate",
+        "symbol": "NULL",
+        "name": "vcd_glt_afr"
+    },
+    "vcd_blb_nsl": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "nasal",
+        "symbol": "m",
+        "name": "vcd_blb_nsl"
+    },
+    "vcl_blb_nsl": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "nasal",
+        "symbol": "m\u0325",
+        "name": "vcl_blb_nsl"
+    },
+    "vcd_lbd_nsl": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "nasal",
+        "symbol": "\u0271",
+        "name": "vcd_lbd_nsl"
+    },
+    "vcl_glt_afr": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "affricate",
+        "symbol": "\u0294h",
+        "name": "vcl_glt_afr"
+    },
+    "vcl_lbd_nsl": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcl_lbd_nsl"
+    },
+    "vcd_lgl_nsl": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "nasal",
+        "symbol": "n\u033c",
+        "name": "vcd_lgl_nsl"
+    },
+    "vcl_lgl_nsl": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcl_lgl_nsl"
+    },
+    "vcd_dnt_nsl": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "nasal",
+        "symbol": "n",
+        "name": "vcd_dnt_nsl"
+    },
+    "vcl_dnt_nsl": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "nasal",
+        "symbol": "n\u0325",
+        "name": "vcl_dnt_nsl"
+    },
+    "vcd_avl_nsl": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "nasal",
+        "symbol": "n",
+        "name": "vcd_avl_nsl"
+    },
+    "vcl_avl_nsl": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "nasal",
+        "symbol": "n\u0325",
+        "name": "vcl_avl_nsl"
+    },
+    "vcd_pal_nsl": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "nasal",
+        "symbol": "n",
+        "name": "vcd_pal_nsl"
+    },
+    "vcl_pal_nsl": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "nasal",
+        "symbol": "n\u0325",
+        "name": "vcl_pal_nsl"
+    },
+    "vcd_rtf_nsl": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "nasal",
+        "symbol": "\u0273",
+        "name": "vcd_rtf_nsl"
+    },
+    "vcl_rtf_nsl": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "nasal",
+        "symbol": "\u0273\u030a",
+        "name": "vcl_rtf_nsl"
+    },
+    "vcd_plt_nsl": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "nasal",
+        "symbol": "\u0272",
+        "name": "vcd_plt_nsl"
+    },
+    "vcl_plt_nsl": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "nasal",
+        "symbol": "\u0272\u030a",
+        "name": "vcl_plt_nsl"
+    },
+    "vcd_vlr_nsl": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "nasal",
+        "symbol": "\u014b",
+        "name": "vcd_vlr_nsl"
+    },
+    "vcl_vlr_nsl": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "nasal",
+        "symbol": "\u014b\u030a",
+        "name": "vcl_vlr_nsl"
+    },
+    "vcd_uvl_nsl": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "nasal",
+        "symbol": "\u0274",
+        "name": "vcd_uvl_nsl"
+    },
+    "vcl_uvl_nsl": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcl_uvl_nsl"
+    },
+    "vcd_phr_nsl": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcd_phr_nsl"
+    },
+    "vcl_phr_nsl": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcl_phr_nsl"
+    },
+    "vcd_glt_nsl": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcd_glt_nsl"
+    },
+    "vcl_glt_nsl": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "nasal",
+        "symbol": "NULL",
+        "name": "vcl_glt_nsl"
+    },
+    "vcd_blb_trl": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "trill",
+        "symbol": "\u0299",
+        "name": "vcd_blb_trl"
+    },
+    "vcl_blb_trl": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "trill",
+        "symbol": "\u0299\u0325",
+        "name": "vcl_blb_trl"
+    },
+    "vcd_lbd_trl": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcd_lbd_trl"
+    },
+    "vcl_lbd_trl": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcl_lbd_trl"
+    },
+    "vcd_lgl_trl": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcd_lgl_trl"
+    },
+    "vcl_lgl_trl": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcl_lgl_trl"
+    },
+    "vcd_dnt_trl": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "trill",
+        "symbol": "r",
+        "name": "vcd_dnt_trl"
+    },
+    "vcl_dnt_trl": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "trill",
+        "symbol": "r\u0325",
+        "name": "vcl_dnt_trl"
+    },
+    "vcd_avl_trl": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "trill",
+        "symbol": "r",
+        "name": "vcd_avl_trl"
+    },
+    "vcl_avl_trl": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "trill",
+        "symbol": "r\u0325",
+        "name": "vcl_avl_trl"
+    },
+    "vcd_pal_trl": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "trill",
+        "symbol": "r",
+        "name": "vcd_pal_trl"
+    },
+    "vcl_pal_trl": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "trill",
+        "symbol": "r\u0325",
+        "name": "vcl_pal_trl"
+    },
+    "vcd_rtf_trl": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "trill",
+        "symbol": "\u027dr",
+        "name": "vcd_rtf_trl"
+    },
+    "vcl_rtf_trl": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "trill",
+        "symbol": "\u027d\u030ar\u0325",
+        "name": "vcl_rtf_trl"
+    },
+    "vcd_plt_trl": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcd_plt_trl"
+    },
+    "vcl_plt_trl": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcl_plt_trl"
+    },
+    "vcd_vlr_trl": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcd_vlr_trl"
+    },
+    "vcl_vlr_trl": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcl_vlr_trl"
+    },
+    "vcd_uvl_trl": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "trill",
+        "symbol": "\u0280",
+        "name": "vcd_uvl_trl"
+    },
+    "vcl_uvl_trl": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "trill",
+        "symbol": "\u0280\u0325",
+        "name": "vcl_uvl_trl"
+    },
+    "vcd_phr_trl": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "trill",
+        "symbol": "\u02a2",
+        "name": "vcd_phr_trl"
+    },
+    "vcl_phr_trl": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "trill",
+        "symbol": "\u029c",
+        "name": "vcl_phr_trl"
+    },
+    "vcd_glt_trl": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcd_glt_trl"
+    },
+    "vcl_glt_trl": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "trill",
+        "symbol": "NULL",
+        "name": "vcl_glt_trl"
+    },
+    "vcd_blb_apr": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcd_blb_apr"
+    },
+    "vcl_blb_apr": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcl_blb_apr"
+    },
+    "vcd_lbd_apr": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "approximant",
+        "symbol": "\u028b",
+        "name": "vcd_lbd_apr"
+    },
+    "vcl_lbd_apr": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "approximant",
+        "symbol": "\u028b\u0325",
+        "name": "vcl_lbd_apr"
+    },
+    "vcd_lgl_apr": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcd_lgl_apr"
+    },
+    "vcl_lgl_apr": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcl_lgl_apr"
+    },
+    "vcd_dnt_apr": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "approximant",
+        "symbol": "\u0279",
+        "name": "vcd_dnt_apr"
+    },
+    "vcl_dnt_apr": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "approximant",
+        "symbol": "\u0279\u0325",
+        "name": "vcl_dnt_apr"
+    },
+    "vcd_avl_apr": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "approximant",
+        "symbol": "\u0279",
+        "name": "vcd_avl_apr"
+    },
+    "vcl_avl_apr": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "approximant",
+        "symbol": "\u0279\u0325",
+        "name": "vcl_avl_apr"
+    },
+    "vcd_pal_apr": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "approximant",
+        "symbol": "\u0279",
+        "name": "vcd_pal_apr"
+    },
+    "vcl_pal_apr": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "approximant",
+        "symbol": "\u0279\u0325",
+        "name": "vcl_pal_apr"
+    },
+    "vcd_rtf_apr": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "approximant",
+        "symbol": "\u027b",
+        "name": "vcd_rtf_apr"
+    },
+    "vcl_rtf_apr": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "approximant",
+        "symbol": "\u027b\u030a",
+        "name": "vcl_rtf_apr"
+    },
+    "vcd_plt_apr": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "approximant",
+        "symbol": "j",
+        "name": "vcd_plt_apr"
+    },
+    "vcl_plt_apr": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "approximant",
+        "symbol": "j\u030a",
+        "name": "vcl_plt_apr"
+    },
+    "vcd_vlr_apr": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "approximant",
+        "symbol": "\u0270",
+        "name": "vcd_vlr_apr"
+    },
+    "vcl_vlr_apr": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "approximant",
+        "symbol": "\u0270\u030a",
+        "name": "vcl_vlr_apr"
+    },
+    "vcd_uvl_apr": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcd_uvl_apr"
+    },
+    "vcl_uvl_apr": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcl_uvl_apr"
+    },
+    "vcd_phr_apr": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcd_phr_apr"
+    },
+    "vcl_phr_apr": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcl_phr_apr"
+    },
+    "vcd_glt_apr": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "approximant",
+        "symbol": "\u0294\u031e",
+        "name": "vcd_glt_apr"
+    },
+    "vcl_glt_apr": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "approximant",
+        "symbol": "NULL",
+        "name": "vcl_glt_apr"
+    },
+    "vcd_blb_tap": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "tap",
+        "symbol": "\u2c71\u031f",
+        "name": "vcd_blb_tap"
+    },
+    "vcl_blb_tap": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_blb_tap"
+    },
+    "vcd_lbd_tap": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "tap",
+        "symbol": "\u2c71",
+        "name": "vcd_lbd_tap"
+    },
+    "vcl_lbd_tap": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_lbd_tap"
+    },
+    "vcd_lgl_tap": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "tap",
+        "symbol": "\u027e\u033c",
+        "name": "vcd_lgl_tap"
+    },
+    "vcl_lgl_tap": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_lgl_tap"
+    },
+    "vcd_dnt_tap": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "tap",
+        "symbol": "\u027e",
+        "name": "vcd_dnt_tap"
+    },
+    "vcl_dnt_tap": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "tap",
+        "symbol": "\u027e\u0325",
+        "name": "vcl_dnt_tap"
+    },
+    "vcd_avl_tap": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "tap",
+        "symbol": "\u027e",
+        "name": "vcd_avl_tap"
+    },
+    "vcl_avl_tap": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "tap",
+        "symbol": "\u027e\u0325",
+        "name": "vcl_avl_tap"
+    },
+    "vcd_pal_tap": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "tap",
+        "symbol": "\u027e",
+        "name": "vcd_pal_tap"
+    },
+    "vcl_pal_tap": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "tap",
+        "symbol": "\u027e\u0325",
+        "name": "vcl_pal_tap"
+    },
+    "vcd_rtf_tap": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "tap",
+        "symbol": "\u027d",
+        "name": "vcd_rtf_tap"
+    },
+    "vcl_rtf_tap": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "tap",
+        "symbol": "\u027d\u030a",
+        "name": "vcl_rtf_tap"
+    },
+    "vcd_plt_tap": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcd_plt_tap"
+    },
+    "vcl_plt_tap": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_plt_tap"
+    },
+    "vcd_vlr_tap": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcd_vlr_tap"
+    },
+    "vcl_vlr_tap": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_vlr_tap"
+    },
+    "vcd_uvl_tap": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "tap",
+        "symbol": "\u0262\u0306",
+        "name": "vcd_uvl_tap"
+    },
+    "vcl_uvl_tap": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_uvl_tap"
+    },
+    "vcd_phr_tap": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "tap",
+        "symbol": "\u02a1\u0306",
+        "name": "vcd_phr_tap"
+    },
+    "vcl_phr_tap": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_phr_tap"
+    },
+    "vcd_glt_tap": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcd_glt_tap"
+    },
+    "vcl_glt_tap": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "tap",
+        "symbol": "NULL",
+        "name": "vcl_glt_tap"
+    },
+    "vcd_blb_lfr": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcd_blb_lfr"
+    },
+    "vcl_blb_lfr": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcl_blb_lfr"
+    },
+    "vcd_lbd_lfr": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcd_lbd_lfr"
+    },
+    "vcl_lbd_lfr": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcl_lbd_lfr"
+    },
+    "vcd_lgl_lfr": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcd_lgl_lfr"
+    },
+    "vcl_lgl_lfr": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcl_lgl_lfr"
+    },
+    "vcd_dnt_lfr": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "lateral-fricative",
+        "symbol": "\u026e",
+        "name": "vcd_dnt_lfr"
+    },
+    "vcl_dnt_lfr": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "lateral-fricative",
+        "symbol": "\u026c",
+        "name": "vcl_dnt_lfr"
+    },
+    "vcd_avl_lfr": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "lateral-fricative",
+        "symbol": "\u026e",
+        "name": "vcd_avl_lfr"
+    },
+    "vcl_avl_lfr": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "lateral-fricative",
+        "symbol": "\u026c",
+        "name": "vcl_avl_lfr"
+    },
+    "vcd_pal_lfr": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "lateral-fricative",
+        "symbol": "\u026e",
+        "name": "vcd_pal_lfr"
+    },
+    "vcl_pal_lfr": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "lateral-fricative",
+        "symbol": "\u026c",
+        "name": "vcl_pal_lfr"
+    },
+    "vcd_rtf_lfr": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "lateral-fricative",
+        "symbol": "\u026d\u02d4",
+        "name": "vcd_rtf_lfr"
+    },
+    "vcl_rtf_lfr": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "lateral-fricative",
+        "symbol": "\ua78e",
+        "name": "vcl_rtf_lfr"
+    },
+    "vcd_plt_lfr": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "lateral-fricative",
+        "symbol": "\u028e\u031d",
+        "name": "vcd_plt_lfr"
+    },
+    "vcl_plt_lfr": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "lateral-fricative",
+        "symbol": "\u028e\u031d\u030a",
+        "name": "vcl_plt_lfr"
+    },
+    "vcd_vlr_lfr": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "lateral-fricative",
+        "symbol": "\u029f\u031d",
+        "name": "vcd_vlr_lfr"
+    },
+    "vcl_vlr_lfr": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "lateral-fricative",
+        "symbol": "\u029f\u031d\u030a",
+        "name": "vcl_vlr_lfr"
+    },
+    "vcd_uvl_lfr": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcd_uvl_lfr"
+    },
+    "vcl_uvl_lfr": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcl_uvl_lfr"
+    },
+    "vcd_phr_lfr": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcd_phr_lfr"
+    },
+    "vcl_phr_lfr": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcl_phr_lfr"
+    },
+    "vcd_glt_lfr": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcd_glt_lfr"
+    },
+    "vcl_glt_lfr": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "lateral-fricative",
+        "symbol": "NULL",
+        "name": "vcl_glt_lfr"
+    },
+    "vcd_blb_laf": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_blb_laf"
+    },
+    "vcl_blb_laf": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcl_blb_laf"
+    },
+    "vcd_lbd_laf": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_lbd_laf"
+    },
+    "vcl_lbd_laf": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcl_lbd_laf"
+    },
+    "vcd_lgl_laf": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_lgl_laf"
+    },
+    "vcl_lgl_laf": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcl_lgl_laf"
+    },
+    "vcd_dnt_laf": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "lateral-affricate",
+        "symbol": "d\u026e",
+        "name": "vcd_dnt_laf"
+    },
+    "vcl_dnt_laf": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "lateral-affricate",
+        "symbol": "t\u026c",
+        "name": "vcl_dnt_laf"
+    },
+    "vcl_avl_laf": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "lateral-affricate",
+        "symbol": "t\u026c",
+        "name": "vcl_avl_laf"
+    },
+    "vcd_pal_laf": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "lateral-affricate",
+        "symbol": "d\u026e",
+        "name": "vcd_pal_laf"
+    },
+    "vcl_pal_laf": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "lateral-affricate",
+        "symbol": "t\u026c",
+        "name": "vcl_pal_laf"
+    },
+    "vcd_avl_laf": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "lateral-affricate",
+        "symbol": "d\u026e",
+        "name": "vcd_avl_laf"
+    },
+    "vcd_rtf_laf": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_rtf_laf"
+    },
+    "vcl_rtf_laf": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "lateral-affricate",
+        "symbol": "\u0288\u026d\u030a\u02d4",
+        "name": "vcl_rtf_laf"
+    },
+    "vcd_plt_laf": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_plt_laf"
+    },
+    "vcd_vlr_laf": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "lateral-affricate",
+        "symbol": "\u0261\u029f\u031d",
+        "name": "vcd_vlr_laf"
+    },
+    "vcl_vlr_laf": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "lateral-affricate",
+        "symbol": "k\u029f\u031d\u030a",
+        "name": "vcl_vlr_laf"
+    },
+    "vcd_uvl_laf": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_uvl_laf"
+    },
+    "vcl_plt_laf": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "lateral-affricate",
+        "symbol": "c\u028e\u031d\u030a",
+        "name": "vcl_plt_laf"
+    },
+    "vcl_uvl_laf": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcl_uvl_laf"
+    },
+    "vcd_phr_laf": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_phr_laf"
+    },
+    "vcl_phr_laf": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcl_phr_laf"
+    },
+    "vcd_glt_laf": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcd_glt_laf"
+    },
+    "vcl_glt_laf": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "lateral-affricate",
+        "symbol": "NULL",
+        "name": "vcl_glt_laf"
+    },
+    "vcd_blb_lap": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcd_blb_lap"
+    },
+    "vcl_blb_lap": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcl_blb_lap"
+    },
+    "vcd_lbd_lap": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcd_lbd_lap"
+    },
+    "vcl_lbd_lap": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcl_lbd_lap"
+    },
+    "vcd_lgl_lap": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcd_lgl_lap"
+    },
+    "vcl_lgl_lap": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcl_lgl_lap"
+    },
+    "vcd_dnt_lap": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "lateral-approximant",
+        "symbol": "l",
+        "name": "vcd_dnt_lap"
+    },
+    "vcl_dnt_lap": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "lateral-approximant",
+        "symbol": "l\u0325",
+        "name": "vcl_dnt_lap"
+    },
+    "vcd_avl_lap": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "lateral-approximant",
+        "symbol": "l",
+        "name": "vcd_avl_lap"
+    },
+    "vcl_avl_lap": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "lateral-approximant",
+        "symbol": "l\u0325",
+        "name": "vcl_avl_lap"
+    },
+    "vcd_pal_lap": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "lateral-approximant",
+        "symbol": "l",
+        "name": "vcd_pal_lap"
+    },
+    "vcl_pal_lap": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "lateral-approximant",
+        "symbol": "l\u0325",
+        "name": "vcl_pal_lap"
+    },
+    "vcd_rtf_lap": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "lateral-approximant",
+        "symbol": "\u026d",
+        "name": "vcd_rtf_lap"
+    },
+    "vcl_rtf_lap": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "lateral-approximant",
+        "symbol": "\u026d\u030a",
+        "name": "vcl_rtf_lap"
+    },
+    "vcd_plt_lap": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "lateral-approximant",
+        "symbol": "\u028e",
+        "name": "vcd_plt_lap"
+    },
+    "vcl_plt_lap": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "lateral-approximant",
+        "symbol": "\u028e\u0325",
+        "name": "vcl_plt_lap"
+    },
+    "vcd_vlr_lap": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "lateral-approximant",
+        "symbol": "\u029f",
+        "name": "vcd_vlr_lap"
+    },
+    "vcl_vlr_lap": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "lateral-approximant",
+        "symbol": "\u029f\u0325",
+        "name": "vcl_vlr_lap"
+    },
+    "vcd_uvl_lap": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "lateral-approximant",
+        "symbol": "\u029f\u0320",
+        "name": "vcd_uvl_lap"
+    },
+    "vcl_uvl_lap": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcl_uvl_lap"
+    },
+    "vcd_phr_lap": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcd_phr_lap"
+    },
+    "vcl_phr_lap": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcl_phr_lap"
+    },
+    "vcd_glt_lap": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcd_glt_lap"
+    },
+    "vcl_glt_lap": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "lateral-approximant",
+        "symbol": "NULL",
+        "name": "vcl_glt_lap"
+    },
+    "vcd_blb_ltp": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcd_blb_ltp"
+    },
+    "vcl_blb_ltp": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_blb_ltp"
+    },
+    "vcd_lbd_ltp": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcd_lbd_ltp"
+    },
+    "vcl_lbd_ltp": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_lbd_ltp"
+    },
+    "vcd_lgl_ltp": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcd_lgl_ltp"
+    },
+    "vcl_lgl_ltp": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_lgl_ltp"
+    },
+    "vcd_dnt_ltp": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "lateral-tap",
+        "symbol": "\u027a",
+        "name": "vcd_dnt_ltp"
+    },
+    "vcl_dnt_ltp": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_dnt_ltp"
+    },
+    "vcd_avl_ltp": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "lateral-tap",
+        "symbol": "\u027a",
+        "name": "vcd_avl_ltp"
+    },
+    "vcl_avl_ltp": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_avl_ltp"
+    },
+    "vcd_pal_ltp": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "lateral-tap",
+        "symbol": "\u027a",
+        "name": "vcd_pal_ltp"
+    },
+    "vcl_pal_ltp": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_pal_ltp"
+    },
+    "vcd_rtf_ltp": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "lateral-tap",
+        "symbol": "\u026d\u0306",
+        "name": "vcd_rtf_ltp"
+    },
+    "vcl_rtf_ltp": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_rtf_ltp"
+    },
+    "vcd_plt_ltp": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "lateral-tap",
+        "symbol": "\u028e\u0306",
+        "name": "vcd_plt_ltp"
+    },
+    "vcl_plt_ltp": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_plt_ltp"
+    },
+    "vcd_vlr_ltp": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "lateral-tap",
+        "symbol": "\u029f\u0306",
+        "name": "vcd_vlr_ltp"
+    },
+    "vcl_vlr_ltp": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_vlr_ltp"
+    },
+    "vcd_uvl_ltp": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcd_uvl_ltp"
+    },
+    "vcl_uvl_ltp": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_uvl_ltp"
+    },
+    "vcd_phr_ltp": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcd_phr_ltp"
+    },
+    "vcl_phr_ltp": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_phr_ltp"
+    },
+    "vcd_glt_ltp": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcd_glt_ltp"
+    },
+    "vcl_glt_ltp": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "lateral-tap",
+        "symbol": "NULL",
+        "name": "vcl_glt_ltp"
+    },
+    "vcd_blb_sfr": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_blb_sfr"
+    },
+    "vcl_blb_sfr": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_blb_sfr"
+    },
+    "vcd_lbd_sfr": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_lbd_sfr"
+    },
+    "vcl_lbd_sfr": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_lbd_sfr"
+    },
+    "vcd_lgl_sfr": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_lgl_sfr"
+    },
+    "vcl_lgl_sfr": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_lgl_sfr"
+    },
+    "vcd_dnt_sfr": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "sibilant-fricative",
+        "symbol": "z",
+        "name": "vcd_dnt_sfr"
+    },
+    "vcl_dnt_sfr": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "sibilant-fricative",
+        "symbol": "s",
+        "name": "vcl_dnt_sfr"
+    },
+    "vcd_avl_sfr": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "sibilant-fricative",
+        "symbol": "z",
+        "name": "vcd_avl_sfr"
+    },
+    "vcl_avl_sfr": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "sibilant-fricative",
+        "symbol": "s",
+        "name": "vcl_avl_sfr"
+    },
+    "vcd_pal_sfr": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "sibilant-fricative",
+        "symbol": "\u0292",
+        "name": "vcd_pal_sfr"
+    },
+    "vcl_pal_sfr": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "sibilant-fricative",
+        "symbol": "\u0283",
+        "name": "vcl_pal_sfr"
+    },
+    "vcd_rtf_sfr": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "sibilant-fricative",
+        "symbol": "\u0290",
+        "name": "vcd_rtf_sfr"
+    },
+    "vcl_rtf_sfr": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "sibilant-fricative",
+        "symbol": "\u0282",
+        "name": "vcl_rtf_sfr"
+    },
+    "vcd_plt_sfr": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "sibilant-fricative",
+        "symbol": "\u0291",
+        "name": "vcd_plt_sfr"
+    },
+    "vcl_plt_sfr": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "sibilant-fricative",
+        "symbol": "\u0255",
+        "name": "vcl_plt_sfr"
+    },
+    "vcd_vlr_sfr": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_vlr_sfr"
+    },
+    "vcl_vlr_sfr": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_vlr_sfr"
+    },
+    "vcd_uvl_sfr": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_uvl_sfr"
+    },
+    "vcl_uvl_sfr": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_uvl_sfr"
+    },
+    "vcd_phr_sfr": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_phr_sfr"
+    },
+    "vcl_phr_sfr": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_phr_sfr"
+    },
+    "vcd_glt_sfr": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcd_glt_sfr"
+    },
+    "vcl_glt_sfr": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "sibilant-fricative",
+        "symbol": "NULL",
+        "name": "vcl_glt_sfr"
+    },
+    "vcd_blb_saf": {
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_blb_saf"
+    },
+    "vcl_blb_saf": {
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_blb_saf"
+    },
+    "vcd_lbd_saf": {
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_lbd_saf"
+    },
+    "vcl_lbd_saf": {
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_lbd_saf"
+    },
+    "vcd_lgl_saf": {
+        "voice": "voiced",
+        "place": "linguolabial",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_lgl_saf"
+    },
+    "vcl_lgl_saf": {
+        "voice": "voiceless",
+        "place": "linguolabial",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_lgl_saf"
+    },
+    "vcd_dnt_saf": {
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "sibilant-affricate",
+        "symbol": "dz",
+        "name": "vcd_dnt_saf"
+    },
+    "vcl_dnt_saf": {
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "sibilant-affricate",
+        "symbol": "ts",
+        "name": "vcl_dnt_saf"
+    },
+    "vcd_avl_saf": {
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "sibilant-affricate",
+        "symbol": "dz",
+        "name": "vcd_avl_saf"
+    },
+    "vcl_avl_saf": {
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "sibilant-affricate",
+        "symbol": "ts",
+        "name": "vcl_avl_saf"
+    },
+    "vcd_pal_saf": {
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "sibilant-affricate",
+        "symbol": "d\u0320\u0292",
+        "name": "vcd_pal_saf"
+    },
+    "vcl_pal_saf": {
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "sibilant-affricate",
+        "symbol": "t\u0320\u0283",
+        "name": "vcl_pal_saf"
+    },
+    "vcd_rtf_saf": {
+        "voice": "voiced",
+        "place": "retroflex",
+        "manner": "sibilant-affricate",
+        "symbol": "\u0256\u0290",
+        "name": "vcd_rtf_saf"
+    },
+    "vcl_rtf_saf": {
+        "voice": "voiceless",
+        "place": "retroflex",
+        "manner": "sibilant-affricate",
+        "symbol": "\u0288\u0282",
+        "name": "vcl_rtf_saf"
+    },
+    "vcd_plt_saf": {
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "sibilant-affricate",
+        "symbol": "d\u0291",
+        "name": "vcd_plt_saf"
+    },
+    "vcl_plt_saf": {
+        "voice": "voiceless",
+        "place": "palatal",
+        "manner": "sibilant-affricate",
+        "symbol": "t\u0255",
+        "name": "vcl_plt_saf"
+    },
+    "vcd_vlr_saf": {
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_vlr_saf"
+    },
+    "vcl_vlr_saf": {
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_vlr_saf"
+    },
+    "vcd_uvl_saf": {
+        "voice": "voiced",
+        "place": "uvular",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_uvl_saf"
+    },
+    "vcl_uvl_saf": {
+        "voice": "voiceless",
+        "place": "uvular",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_uvl_saf"
+    },
+    "vcd_phr_saf": {
+        "voice": "voiced",
+        "place": "pharyngeal",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_phr_saf"
+    },
+    "vcl_phr_saf": {
+        "voice": "voiceless",
+        "place": "pharyngeal",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_phr_saf"
+    },
+    "vcd_glt_saf": {
+        "voice": "voiced",
+        "place": "glottal",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcd_glt_saf"
+    },
+    "vcl_glt_saf": {
+        "voice": "voiceless",
+        "place": "glottal",
+        "manner": "sibilant-affricate",
+        "symbol": "NULL",
+        "name": "vcl_glt_saf"
     }
 }
